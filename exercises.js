@@ -320,8 +320,12 @@ console.log(eatFood("Bradley ", "Foster", "eggs "))
  * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
  * Console.log your result. 
 */
+function shoeSize(inches){
+return inches * 2.54;
 
+}
 
+console.log("shoeSize: ", shoeSize(11))
 
 /*
  * #15
