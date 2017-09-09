@@ -191,6 +191,13 @@ function checkProduct(){
  * Console.log your result.  
 */
 
+function checkQuotient(){
+
+	return product * quotient;
+
+
+}
+console.log(checkQuotient());
 
 
 /*
