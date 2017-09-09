@@ -220,6 +220,15 @@ console.log(checkQuotient());
  * Console.log your result.
 */ 
 
+var bango3 = 1;
+var bango4 = 2;
+var bango5 = 3;
+
+function addThenSubtract(num1, num2, num3){
+	return add(num1,num2) - num3;
+	
+ }
+ console.log(addThenSubtract(bango3,bango4,bango5))
 
 
 /*
