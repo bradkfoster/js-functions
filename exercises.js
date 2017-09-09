@@ -111,6 +111,12 @@ console.log(product);
  * Invoke the function and assign it to a variable named `quotient`.
  * Console.log `quotient` to test your code.
 */
+function divide(num1, num2){
+	return num1 / num2;
+
+}
+var quotient = divide(bango1,bango2);
+console.log(quotient);
 
 
 
@@ -125,6 +131,11 @@ console.log(product);
  * This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value when you invoke the function. Invoke this function using the variable `daDiva`. 
  * Console.log your result.
 */
+function checkSum(x){ 
+	return "Mariah Carey has been married " + x + " amount of times";
+}
+var daDiva = checkSum(bango1);
+console.log(daDiva);
 
 
 
