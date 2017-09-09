@@ -47,11 +47,10 @@ var bango2 = 3;
 */
 
 function add(num1, num2){
-	var sum = num1 + num2;
-	return sum;
+	return num1 + num2;
 }
-
-console.log(add(bango1,bango2))
+var sum = add(bango1, bango2);
+console.log(sum);
 
 /*
  * #3
@@ -151,6 +150,15 @@ console.log(daDiva);
  * Console.log your results.
 */ 
 
+function checkDifference(x){
+
+	return "Last night I dreamt that i ate " + x + " tacobell soft tacos.";
+}
+
+var difference = checkDifference(bango1);
+console.log(difference);
+
+
 
 
 /*
@@ -164,6 +172,12 @@ console.log(daDiva);
  * Console.log your result.  
 */
 
+function checkProduct(){
+	return sum * product;
+
+
+}
+ console.log(checkProduct());
 
 
 /*
