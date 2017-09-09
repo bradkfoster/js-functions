@@ -50,7 +50,7 @@ function add(num1, num2){
 	return num1 + num2;
 }
 var sum = add(bango1, bango2);
-console.log(sum);
+console.log("sum: ", sum);
 
 /*
  * #3
@@ -70,7 +70,7 @@ function subtract(num1, num2){
 	return num1 - num2;
 }
 var difference = subtract(bango1, bango2)
-console.log(difference);
+console.log("difference: ", difference);
 
 
 
@@ -95,7 +95,7 @@ function multiply(num1, num2){
 
 var product = multiply(bango1,bango2);
 
-console.log(product);
+console.log("product :", product);
 
 /*
  * #5
@@ -115,7 +115,7 @@ function divide(num1, num2){
 
 }
 var quotient = divide(bango1,bango2);
-console.log(quotient);
+console.log("quotient: ", quotient);
 
 
 
@@ -134,7 +134,7 @@ function checkSum(x){
 	return "Mariah Carey has been married " + x + " amount of times";
 }
 var daDiva = checkSum(bango1);
-console.log(daDiva);
+console.log("checkSum :", daDiva);
 
 
 
@@ -156,7 +156,7 @@ function checkDifference(x){
 }
 
 var difference = checkDifference(bango1);
-console.log(difference);
+console.log("checkProduct: ",difference);
 
 
 
@@ -177,7 +177,7 @@ function checkProduct(){
 
 
 }
- console.log(checkProduct());
+ console.log("checkProduct: ", checkProduct());
 
 
 /*
@@ -197,7 +197,7 @@ function checkQuotient(){
 
 
 }
-console.log(checkQuotient());
+console.log("checkQuotient: ", checkQuotient());
 
 
 /*
@@ -228,7 +228,13 @@ function addThenSubtract(num1, num2, num3){
 	return add(num1,num2) - num3;
 	
  }
- console.log(addThenSubtract(bango3,bango4,bango5))
+ console.log("addsub ver1: ", addThenSubtract(bango3,bango4,bango5))
+
+function addThenSubtract(num1,num2,num3){
+	return subtract(add(num1, num2), num3);
+
+}
+console.log("addsub ver2: ", addThenSubtract(bango3,bango4,bango5))
 
 
 /*
@@ -244,6 +250,12 @@ function addThenSubtract(num1, num2, num3){
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
+
+function multiplyThenDivide(num1, num2, num3){
+	return multiply(num1, num2) / num3;
+}
+
+console.log(multiplyThenDivide(bango3, bango4, bango5));
 
 
 
