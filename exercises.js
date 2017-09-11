@@ -337,7 +337,13 @@ console.log("shoeSize: ", shoeSize(11))
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
  
+function allCaps(str){
+	return str.toUpperCase();
 
+
+}
+
+console.log(allCaps("i loooooove donuts!!!")) 
 
 /*
  * #16
@@ -346,8 +352,12 @@ console.log("shoeSize: ", shoeSize(11))
  * This function will capitalize only the first letter in the variable phase above. 
  * Console.log your result.
 */
+function oneCap(str){
+	return str.charAt().toUpperCase() + str.slice(1);
 
 
+}
+console.log(oneCap("bottles"))
 
 /*
  * #17
@@ -360,6 +370,27 @@ console.log("shoeSize: ", shoeSize(11))
  * Store the return value to a variable named `canDrink`. Console.log your result.
  */
 
+/*
+ * #17
+ * Function - verifyDrinkingAge
+ * Create a function named verifyDrinkingAge which takes a parameter named `age`. 
+ * This function returns a Boolean value, `true` or `false`, depending on 
+ * whether `age` is above or below the legal drinking age in the state of Hawaii.
+ *
+ * Call this function and pass in a number value.
+ * Store the return value to a variable named `canDrink`. Console.log your result.
+ */
+
+function verifyDrinkingAge(age){
+  if(age >= 21){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+var canDrink = verifyDrinkingAge(21);
+console.log(canDrink);
 
 
 /**
@@ -369,7 +400,26 @@ console.log("shoeSize: ", shoeSize(11))
  */
 
 
+function throwParty(){
+  if(canDrink === true){
+    return "Cheeheee we paaaaahtay!";
+  }else{
+    return "Meh, see you at Starbucks.";
+  }
+}
+
+var canParty = throwParty();
+console.log(canParty);
 
 
+
+
+
+
+
+
+
+
+ 
 
 
